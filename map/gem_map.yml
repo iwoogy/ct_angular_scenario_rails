@@ -1,0 +1,11 @@
+---
+module:
+  name: "ngScenario"
+uis:
+  - name: $scenario
+    type: service
+actions:
+  javascript:
+    include?: true
+  module:
+    include?: true
